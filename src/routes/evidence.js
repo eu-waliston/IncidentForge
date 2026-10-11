@@ -1,0 +1,10 @@
+const express = require('express');
+const controller = require('../controllers/evidence-controller');
+const router = express.Router();
+router.post('/', controller.register);
+router.get('/', controller.list);
+router.get('/:id/custody', controller.custody);
+router.post('/:id/custody', controller.addCustodyNote);
+router.post('/:id/verify', controller.verify);
+router.get('/:id', controller.get);
+module.exports = router;
