@@ -6,6 +6,8 @@
 
 **A defensive security lab for incident handling, event correlation, risk assessment, evidence tracking, and simulated response workflows.**
 
+Landing page: https://hilarious-pegasus-281b64.netlify.app/
+
 [Features](#-capabilities) · [Architecture](#-architecture) · [Getting Started](#-getting-started) · [API](#-api-overview) · [Security](#-security-first)
 
 ![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)
